@@ -3,6 +3,7 @@
     {
       "name": "Cheese",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese",
@@ -12,13 +13,30 @@
           "src/main/java/net/mcreator/newendupdate/item/CheeseItem.java"
         ]
       }
+    },
+    {
+      "name": "CheeseBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_end_update/blockstates/cheese_block.json",
+          "src/main/java/net/mcreator/newendupdate/block/CheeseBlockBlock.java",
+          "src/main/resources/assets/new_end_update/models/item/cheese_block.json",
+          "src/main/resources/assets/new_end_update/models/block/cheese_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.new_end_update.cheese": "Cheese"
+      "item.new_end_update.cheese": "Cheese",
+      "block.new_end_update.cheese_block": "Cheese Block"
     }
   },
   "foldersRoot": {

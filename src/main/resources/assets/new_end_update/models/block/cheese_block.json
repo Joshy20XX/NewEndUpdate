@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "new_end_update:block/cheese_block_5",
+    "up": "new_end_update:block/cheese_block_1",
+    "north": "new_end_update:block/cheese_block_6",
+    "east": "new_end_update:block/cheese_block_1",
+    "south": "new_end_update:block/cheese_block_5",
+    "west": "new_end_update:block/cheese_block_4",
+    "particle": "new_end_update:block/cheese_block_5"
+  },
+  "render_type": "cutout_mipped"
+}
