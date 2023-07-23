@@ -15,18 +15,16 @@
       }
     },
     {
-      "name": "CheeseBlock",
-      "type": "block",
+      "name": "Endwoodstick",
+      "type": "item",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cheese_block",
+      "registry_name": "endwoodstick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_end_update/blockstates/cheese_block.json",
-          "src/main/java/net/mcreator/newendupdate/block/CheeseBlockBlock.java",
-          "src/main/resources/assets/new_end_update/models/item/cheese_block.json",
-          "src/main/resources/assets/new_end_update/models/block/cheese_block.json"
+          "src/main/resources/assets/new_end_update/models/item/endwoodstick.json",
+          "src/main/java/net/mcreator/newendupdate/item/EndwoodstickItem.java"
         ]
       }
     }
@@ -36,7 +34,7 @@
   "language_map": {
     "en_us": {
       "item.new_end_update.cheese": "Cheese",
-      "block.new_end_update.cheese_block": "Cheese Block"
+      "item.new_end_update.endwoodstick": "Endwoodstick"
     }
   },
   "foldersRoot": {
