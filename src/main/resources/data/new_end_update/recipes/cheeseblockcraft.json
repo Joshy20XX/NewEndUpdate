@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cheeseblockcraft",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_end_update:cheese"
+    },
+    "1": {
+      "item": "new_end_update:cheese"
+    },
+    "2": {
+      "item": "new_end_update:cheese"
+    },
+    "3": {
+      "item": "new_end_update:cheese"
+    },
+    "4": {
+      "item": "new_end_update:cheese"
+    },
+    "5": {
+      "item": "new_end_update:cheese"
+    },
+    "6": {
+      "item": "new_end_update:cheese"
+    },
+    "7": {
+      "item": "new_end_update:cheese"
+    },
+    "8": {
+      "item": "new_end_update:cheese"
+    }
+  },
+  "result": {
+    "item": "new_end_update:cheese_block",
+    "count": 1
+  }
+}
