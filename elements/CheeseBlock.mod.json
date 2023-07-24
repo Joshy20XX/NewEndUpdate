@@ -46,7 +46,7 @@
     "customDrop": {
       "value": "CUSTOM:Cheese"
     },
-    "dropAmount": 1,
+    "dropAmount": 3,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SAND"
+      "value": "SLIME"
     },
     "breakSound": {
       "value": ""
