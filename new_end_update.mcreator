@@ -27,6 +27,39 @@
           "src/main/java/net/mcreator/newendupdate/item/EndwoodstickItem.java"
         ]
       }
+    },
+    {
+      "name": "ZombieSlayerRightclicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_slayer_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newendupdate/procedures/ZombieSlayerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZombieSlayer",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_slayer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_end_update/models/item/zombie_slayer.json",
+          "src/main/java/net/mcreator/newendupdate/item/ZombieSlayerItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -34,6 +67,7 @@
   "language_map": {
     "en_us": {
       "item.new_end_update.cheese": "Cheese",
+      "item.new_end_update.zombie_slayer": "Zombie Slayer",
       "item.new_end_update.endwoodstick": "Endwoodstick"
     }
   },

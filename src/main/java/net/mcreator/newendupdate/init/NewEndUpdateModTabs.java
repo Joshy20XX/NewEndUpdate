@@ -16,8 +16,11 @@ public class NewEndUpdateModTabs {
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
 		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
-			tabData.accept(NewEndUpdateModBlocks.CHEESE_BLOCK.get().asItem());
 			tabData.accept(NewEndUpdateModItems.CHEESE.get());
+		}
+
+		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(NewEndUpdateModItems.ZOMBIE_SLAYER.get());
 		}
 	}
 }
