@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "new_end_update:item/endslasherspark"
+  }
+}
