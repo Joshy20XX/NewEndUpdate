@@ -23,8 +23,8 @@
       "registry_name": "endwoodstick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newendupdate/item/EndwoodstickItem.java",
-          "src/main/resources/assets/new_end_update/models/item/endwoodstick.json"
+          "src/main/resources/assets/new_end_update/models/item/endwoodstick.json",
+          "src/main/java/net/mcreator/newendupdate/item/EndwoodstickItem.java"
         ]
       }
     },

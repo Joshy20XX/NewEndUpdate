@@ -19,6 +19,10 @@ public class NewEndUpdateModTabs {
 			tabData.accept(NewEndUpdateModItems.ENDER_SLASHER.get());
 		}
 
+		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(NewEndUpdateModItems.ENDWOODSTICK.get());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(NewEndUpdateModItems.CHEESE.get());
 		}

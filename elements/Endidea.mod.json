@@ -5,14 +5,21 @@
     "biomesInDimension": [
       {
         "value": "roofed_forest"
+      },
+      {
+        "value": "grove"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Nether like gen",
     "mainFillerBlock": {
       "value": "Blocks.WEATHERED_COPPER"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
+    },
+    "airColor": {
+      "value": -16724788,
+      "falpha": 0.0
     },
     "canRespawnHere": true,
     "hasFog": false,
