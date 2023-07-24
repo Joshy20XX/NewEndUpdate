@@ -27,7 +27,7 @@ public class EnderSlasherItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 28f;
 			}
 
 			public int getLevel() {
@@ -41,7 +41,7 @@ public class EnderSlasherItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, 76f, new Item.Properties());
+		}, 3, -2f, new Item.Properties());
 	}
 
 	@Override
