@@ -23,8 +23,8 @@
       "registry_name": "endwoodstick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_end_update/models/item/endwoodstick.json",
-          "src/main/java/net/mcreator/newendupdate/item/EndwoodstickItem.java"
+          "src/main/java/net/mcreator/newendupdate/item/EndwoodstickItem.java",
+          "src/main/resources/assets/new_end_update/models/item/endwoodstick.json"
         ]
       }
     },
@@ -81,6 +81,20 @@
           "src/main/resources/data/new_end_update/dimension_type/endidea.json"
         ]
       }
+    },
+    {
+      "name": "EnderSlasher",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_slasher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_end_update/models/item/ender_slasher.json",
+          "src/main/java/net/mcreator/newendupdate/item/EnderSlasherItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -88,6 +102,7 @@
   "language_map": {
     "en_us": {
       "item.new_end_update.cheese": "Cheese",
+      "item.new_end_update.ender_slasher": "Ender Slasher",
       "item.new_end_update.zombie_slayer": "Zombie Slayer",
       "item.new_end_update.endwoodstick": "Endwoodstick"
     }

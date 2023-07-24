@@ -23,7 +23,7 @@ import java.util.Collections;
 
 public class CheeseBlockBlock extends Block {
 	public CheeseBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.SPONGE).sound(SoundType.SAND).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.SPONGE).sound(SoundType.SLIME_BLOCK).strength(1f, 10f));
 	}
 
 	@Override
@@ -46,6 +46,6 @@ public class CheeseBlockBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(NewEndUpdateModItems.CHEESE.get()));
+		return Collections.singletonList(new ItemStack(NewEndUpdateModItems.CHEESE.get(), 3));
 	}
 }

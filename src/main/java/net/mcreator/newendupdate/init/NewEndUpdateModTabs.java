@@ -15,6 +15,10 @@ public class NewEndUpdateModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
+		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
+			tabData.accept(NewEndUpdateModItems.ENDER_SLASHER.get());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(NewEndUpdateModBlocks.CHEESE_BLOCK.get().asItem());
 			tabData.accept(NewEndUpdateModItems.CHEESE.get());
