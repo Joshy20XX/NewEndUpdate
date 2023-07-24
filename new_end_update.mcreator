@@ -73,12 +73,14 @@
           "src/main/java/net/mcreator/newendupdate/world/dimension/EndideaDimension.java",
           "src/main/java/net/mcreator/newendupdate/block/EndideaPortalBlock.java",
           "src/main/java/net/mcreator/newendupdate/world/teleporter/EndideaPortalShape.java",
+          "src/main/java/net/mcreator/newendupdate/item/EndideaItem.java",
           "src/main/resources/data/new_end_update/dimension/endidea.json",
           "src/main/resources/assets/new_end_update/blockstates/endidea_portal.json",
           "src/main/java/net/mcreator/newendupdate/world/teleporter/EndideaTeleporter.java",
           "src/main/resources/assets/new_end_update/models/block/endidea_portal_ns.json",
           "src/main/resources/assets/new_end_update/models/block/endidea_portal_ew.json",
-          "src/main/resources/data/new_end_update/dimension_type/endidea.json"
+          "src/main/resources/data/new_end_update/dimension_type/endidea.json",
+          "src/main/resources/assets/new_end_update/models/item/endidea.json"
         ]
       }
     },
@@ -103,6 +105,7 @@
     "en_us": {
       "item.new_end_update.cheese": "Cheese",
       "item.new_end_update.ender_slasher": "Ender Slasher",
+      "item.new_end_update.endidea": "Endidea Portal Igniter",
       "item.new_end_update.zombie_slayer": "Zombie Slayer",
       "item.new_end_update.endwoodstick": "Endwoodstick"
     }

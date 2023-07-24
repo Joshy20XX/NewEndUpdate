@@ -9,7 +9,7 @@
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.AIR"
+      "value": "Blocks.WEATHERED_COPPER"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
@@ -31,12 +31,12 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "enableIgniter": false,
+    "enableIgniter": true,
     "igniterName": "Endidea Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "pixil-frame-0_4",
+    "texture": "testig2",
     "portalTexture": "endiaportal",
     "enablePortal": true
   }

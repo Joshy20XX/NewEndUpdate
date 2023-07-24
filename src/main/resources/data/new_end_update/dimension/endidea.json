@@ -27,7 +27,7 @@
       "aquifers_enabled": true,
       "ore_veins_enabled": true,
       "default_block": {
-        "Name": "minecraft:air"
+        "Name": "minecraft:weathered_copper"
       },
       "default_fluid": {
         "Name": "minecraft:water",
