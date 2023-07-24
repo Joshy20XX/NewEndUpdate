@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "new_end_update:block/endidea_portal_ew"
+    },
+    "axis=x": {
+      "model": "new_end_update:block/endidea_portal_ns"
+    }
+  }
+}

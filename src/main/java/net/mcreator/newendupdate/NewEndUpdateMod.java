@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.newendupdate.init.NewEndUpdateModItems;
+import net.mcreator.newendupdate.init.NewEndUpdateModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,6 +50,7 @@ public class NewEndUpdateMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		NewEndUpdateModBlocks.REGISTRY.register(bus);
 		NewEndUpdateModItems.REGISTRY.register(bus);
 
 	}
