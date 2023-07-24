@@ -91,20 +91,6 @@
       }
     },
     {
-      "name": "EnderSlasherMakeItemGlow",
-      "type": "procedure",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ender_slasher_make_item_glow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newendupdate/procedures/EnderSlasherMakeItemGlowProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
       "name": "EnderSlasher",
       "type": "tool",
       "sortid": 7,
