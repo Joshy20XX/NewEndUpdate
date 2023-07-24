@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.newendupdate.item.ZombieSlayerItem;
 import net.mcreator.newendupdate.item.EndwoodstickItem;
 import net.mcreator.newendupdate.item.CheeseItem;
 import net.mcreator.newendupdate.NewEndUpdateMod;

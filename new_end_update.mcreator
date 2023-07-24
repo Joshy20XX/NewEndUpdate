@@ -9,8 +9,8 @@
       "registry_name": "cheese",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_end_update/models/item/cheese.json",
-          "src/main/java/net/mcreator/newendupdate/item/CheeseItem.java"
+          "src/main/java/net/mcreator/newendupdate/item/CheeseItem.java",
+          "src/main/resources/assets/new_end_update/models/item/cheese.json"
         ]
       }
     },
