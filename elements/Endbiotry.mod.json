@@ -1,0 +1,109 @@
+{
+  "_fv": 43,
+  "_type": "biome",
+  "definition": {
+    "name": "Endbiotry",
+    "groundBlock": {
+      "value": "Blocks.AIR"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.END_STONE"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.19999999999999998,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.503,
+      "max": 0.8
+    },
+    "genHumidity": {
+      "min": -0.1,
+      "max": 2.0
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.7075,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0033,
+      "max": 2.0
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "desert",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": true,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

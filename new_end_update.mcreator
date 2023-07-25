@@ -97,6 +97,19 @@
           "src/main/java/net/mcreator/newendupdate/item/EnderSlasherItem.java"
         ]
       }
+    },
+    {
+      "name": "Endbiotry",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endbiotry",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_end_update/worldgen/biome/endbiotry.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -107,6 +120,7 @@
       "item.new_end_update.ender_slasher": "Ender Slasher",
       "item.new_end_update.endidea": "Endidea Portal Igniter",
       "item.new_end_update.zombie_slayer": "Zombie Slayer",
+      "biome.new_end_update.endbiotry": "Endbiotry",
       "item.new_end_update.endwoodstick": "Endwoodstick"
     }
   },
