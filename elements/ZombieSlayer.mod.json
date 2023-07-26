@@ -25,6 +25,9 @@
     "damageOnCrafting": false,
     "onRightClickedInAir": {
       "name": "ZombieSlayerRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "ZombieSlayerLivingEntityIsHitWithTool"
     }
   }
 }

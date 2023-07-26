@@ -110,6 +110,25 @@
           "src/main/resources/data/new_end_update/worldgen/biome/endbiotry.json"
         ]
       }
+    },
+    {
+      "name": "ZombieSlayerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_slayer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newendupdate/procedures/ZombieSlayerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
