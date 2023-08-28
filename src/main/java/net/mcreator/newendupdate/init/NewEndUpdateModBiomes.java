@@ -29,7 +29,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
-import net.mcreator.newendupdate.world.biome.EndbiotryBiome;
 import net.mcreator.newendupdate.NewEndUpdateMod;
 
 import java.util.Map;
