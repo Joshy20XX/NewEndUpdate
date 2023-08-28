@@ -15,6 +15,7 @@ import net.mcreator.newendupdate.item.EndwoodstickItem;
 import net.mcreator.newendupdate.item.EndideaItem;
 import net.mcreator.newendupdate.item.EnderSlasherItem;
 import net.mcreator.newendupdate.item.CheeseItem;
+import net.mcreator.newendupdate.item.BeanItem;
 import net.mcreator.newendupdate.NewEndUpdateMod;
 
 public class NewEndUpdateModItems {
@@ -24,4 +25,5 @@ public class NewEndUpdateModItems {
 	public static final RegistryObject<Item> ZOMBIE_SLAYER = REGISTRY.register("zombie_slayer", () -> new ZombieSlayerItem());
 	public static final RegistryObject<Item> ENDIDEA = REGISTRY.register("endidea", () -> new EndideaItem());
 	public static final RegistryObject<Item> ENDER_SLASHER = REGISTRY.register("ender_slasher", () -> new EnderSlasherItem());
+	public static final RegistryObject<Item> BEAN = REGISTRY.register("bean", () -> new BeanItem());
 }

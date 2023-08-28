@@ -129,6 +129,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "Bean",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newendupdate/item/BeanItem.java",
+          "src/main/resources/assets/new_end_update/models/item/bean.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -139,6 +153,7 @@
       "item.new_end_update.ender_slasher": "Ender Slasher",
       "item.new_end_update.endidea": "Endidea Portal Igniter",
       "item.new_end_update.zombie_slayer": "Zombie Slayer",
+      "item.new_end_update.bean": "Bean",
       "biome.new_end_update.endbiotry": "Endbiotry",
       "item.new_end_update.endwoodstick": "Endwoodstick"
     }
