@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "new_end_update:item/pixil-frame-0_4"
+    "layer0": "new_end_update:items/pixil-frame-0_4"
   }
 }

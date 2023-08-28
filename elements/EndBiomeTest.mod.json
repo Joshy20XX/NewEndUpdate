@@ -4,22 +4,21 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "roofed_forest"
+        "value": "end_highlands"
       },
       {
-        "value": "grove"
+        "value": "end_midlands"
+      },
+      {
+        "value": "end_barrens"
       }
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.WEATHERED_COPPER"
+      "value": "Blocks.END_STONE"
     },
     "fluidBlock": {
-      "value": "Blocks.WATER"
-    },
-    "airColor": {
-      "value": -16724788,
-      "falpha": 0.0
+      "value": "Blocks.BUBBLE_COLUMN"
     },
     "canRespawnHere": true,
     "hasFog": false,
@@ -27,19 +26,19 @@
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": true,
+    "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": "Blocks.END_STONE"
+      "value": "Blocks.END_PORTAL_FRAME"
     },
     "portalParticles": {
       "value": "PORTAL"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 4,
     "portalSound": {
       "value": "block.portal.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "Endidea Portal Igniter",
+    "igniterName": "End Biome Test Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"
     },

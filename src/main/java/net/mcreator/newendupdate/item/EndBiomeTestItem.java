@@ -10,10 +10,10 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.newendupdate.block.EndideaPortalBlock;
+import net.mcreator.newendupdate.block.EndBiomeTestPortalBlock;
 
-public class EndideaItem extends Item {
-	public EndideaItem() {
+public class EndBiomeTestItem extends Item {
+	public EndBiomeTestItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(64));
 	}
 
@@ -31,7 +31,7 @@ public class EndideaItem extends Item {
 			int z = pos.getZ();
 			boolean success = false;
 			if (world.isEmptyBlock(pos) && true) {
-				EndideaPortalBlock.portalSpawn(world, pos);
+				EndBiomeTestPortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}

@@ -9,8 +9,8 @@
       "registry_name": "cheese",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newendupdate/item/CheeseItem.java",
-          "src/main/resources/assets/new_end_update/models/item/cheese.json"
+          "src/main/resources/assets/new_end_update/models/item/cheese.json",
+          "src/main/java/net/mcreator/newendupdate/item/CheeseItem.java"
         ]
       }
     },
@@ -23,8 +23,8 @@
       "registry_name": "endwoodstick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_end_update/models/item/endwoodstick.json",
-          "src/main/java/net/mcreator/newendupdate/item/EndwoodstickItem.java"
+          "src/main/java/net/mcreator/newendupdate/item/EndwoodstickItem.java",
+          "src/main/resources/assets/new_end_update/models/item/endwoodstick.json"
         ]
       }
     },
@@ -70,16 +70,16 @@
       "registry_name": "endidea",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newendupdate/world/dimension/EndideaDimension.java",
-          "src/main/java/net/mcreator/newendupdate/block/EndideaPortalBlock.java",
-          "src/main/java/net/mcreator/newendupdate/world/teleporter/EndideaPortalShape.java",
-          "src/main/java/net/mcreator/newendupdate/item/EndideaItem.java",
-          "src/main/resources/data/new_end_update/dimension/endidea.json",
-          "src/main/resources/assets/new_end_update/blockstates/endidea_portal.json",
           "src/main/java/net/mcreator/newendupdate/world/teleporter/EndideaTeleporter.java",
-          "src/main/resources/assets/new_end_update/models/block/endidea_portal_ns.json",
+          "src/main/java/net/mcreator/newendupdate/world/teleporter/EndideaPortalShape.java",
+          "src/main/java/net/mcreator/newendupdate/block/EndideaPortalBlock.java",
+          "src/main/resources/data/new_end_update/dimension/endidea.json",
           "src/main/resources/assets/new_end_update/models/block/endidea_portal_ew.json",
+          "src/main/resources/assets/new_end_update/models/block/endidea_portal_ns.json",
+          "src/main/java/net/mcreator/newendupdate/world/dimension/EndideaDimension.java",
+          "src/main/java/net/mcreator/newendupdate/item/EndideaItem.java",
           "src/main/resources/data/new_end_update/dimension_type/endidea.json",
+          "src/main/resources/assets/new_end_update/blockstates/endidea_portal.json",
           "src/main/resources/assets/new_end_update/models/item/endidea.json"
         ]
       }
@@ -107,7 +107,7 @@
       "registry_name": "endbiotry",
       "metadata": {
         "files": [
-          "src/main/resources/data/new_end_update/worldgen/biome/endbiotry.json"
+          "src/main/java/net/mcreator/newendupdate/world/biome/EndbiotryBiome.java"
         ]
       }
     },
@@ -129,6 +129,29 @@
           }
         ]
       }
+    },
+    {
+      "name": "EndBiomeTest",
+      "type": "dimension",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_biome_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newendupdate/world/dimension/EndBiomeTestDimension.java",
+          "src/main/java/net/mcreator/newendupdate/world/teleporter/EndBiomeTestPortalShape.java",
+          "src/main/java/net/mcreator/newendupdate/item/EndBiomeTestItem.java",
+          "src/main/resources/data/new_end_update/dimension/end_biome_test.json",
+          "src/main/java/net/mcreator/newendupdate/world/teleporter/EndBiomeTestTeleporter.java",
+          "src/main/java/net/mcreator/newendupdate/block/EndBiomeTestPortalBlock.java",
+          "src/main/resources/assets/new_end_update/models/block/end_biome_test_portal_ew.json",
+          "src/main/resources/assets/new_end_update/models/item/end_biome_test.json",
+          "src/main/resources/data/new_end_update/dimension_type/end_biome_test.json",
+          "src/main/resources/assets/new_end_update/models/block/end_biome_test_portal_ns.json",
+          "src/main/resources/assets/new_end_update/blockstates/end_biome_test_portal.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -140,6 +163,7 @@
       "item.new_end_update.endidea": "Endidea Portal Igniter",
       "item.new_end_update.zombie_slayer": "Zombie Slayer",
       "biome.new_end_update.endbiotry": "Endbiotry",
+      "item.new_end_update.end_biome_test": "End Biome Test Portal Igniter",
       "item.new_end_update.endwoodstick": "Endwoodstick"
     }
   },
@@ -160,7 +184,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.4",
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.newendupdate",
     "lockBaseModFiles": false
   },

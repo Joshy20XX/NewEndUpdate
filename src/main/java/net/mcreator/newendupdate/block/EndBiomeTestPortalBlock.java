@@ -27,16 +27,16 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
-import net.mcreator.newendupdate.world.teleporter.EndideaTeleporter;
-import net.mcreator.newendupdate.world.teleporter.EndideaPortalShape;
+import net.mcreator.newendupdate.world.teleporter.EndBiomeTestTeleporter;
+import net.mcreator.newendupdate.world.teleporter.EndBiomeTestPortalShape;
 import net.mcreator.newendupdate.init.NewEndUpdateModBlocks;
 
 import java.util.Random;
 import java.util.Optional;
 
-public class EndideaPortalBlock extends NetherPortalBlock {
-	public EndideaPortalBlock() {
-		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 0).noDrops());
+public class EndBiomeTestPortalBlock extends NetherPortalBlock {
+	public EndBiomeTestPortalBlock() {
+		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 4).noDrops());
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class EndideaPortalBlock extends NetherPortalBlock {
 	}
 
 	public static void portalSpawn(Level world, BlockPos pos) {
-		Optional<EndideaPortalShape> optional = EndideaPortalShape.findEmptyPortalShape(world, pos, Direction.Axis.X);
+		Optional<EndBiomeTestPortalShape> optional = EndBiomeTestPortalShape.findEmptyPortalShape(world, pos, Direction.Axis.X);
 		if (optional.isPresent()) {
 			optional.get().createPortalBlocks();
 		}
@@ -55,7 +55,7 @@ public class EndideaPortalBlock extends NetherPortalBlock {
 		Direction.Axis direction$axis = p_54929_.getAxis();
 		Direction.Axis direction$axis1 = p_54928_.getValue(AXIS);
 		boolean flag = direction$axis1 != direction$axis && direction$axis.isHorizontal();
-		return !flag && !p_54930_.is(this) && !(new EndideaPortalShape(p_54931_, p_54932_, direction$axis1)).isComplete() ? Blocks.AIR.defaultBlockState() : super.updateShape(p_54928_, p_54929_, p_54930_, p_54931_, p_54932_, p_54933_);
+		return !flag && !p_54930_.is(this) && !(new EndBiomeTestPortalShape(p_54931_, p_54932_, direction$axis1)).isComplete() ? Blocks.AIR.defaultBlockState() : super.updateShape(p_54928_, p_54929_, p_54930_, p_54931_, p_54932_, p_54933_);
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -87,9 +87,9 @@ public class EndideaPortalBlock extends NetherPortalBlock {
 		if (!entity.isPassenger() && !entity.isVehicle() && entity.canChangeDimensions() && !entity.level.isClientSide() && true) {
 			if (entity.isOnPortalCooldown()) {
 				entity.setPortalCooldown();
-			} else if (entity.level.dimension() != ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("new_end_update:endidea"))) {
+			} else if (entity.level.dimension() != ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("new_end_update:end_biome_test"))) {
 				entity.setPortalCooldown();
-				teleportToDimension(entity, pos, ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("new_end_update:endidea")));
+				teleportToDimension(entity, pos, ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("new_end_update:end_biome_test")));
 			} else {
 				entity.setPortalCooldown();
 				teleportToDimension(entity, pos, Level.OVERWORLD);
@@ -98,11 +98,11 @@ public class EndideaPortalBlock extends NetherPortalBlock {
 	}
 
 	private void teleportToDimension(Entity entity, BlockPos pos, ResourceKey<Level> destinationType) {
-		entity.changeDimension(entity.getServer().getLevel(destinationType), new EndideaTeleporter(entity.getServer().getLevel(destinationType), pos));
+		entity.changeDimension(entity.getServer().getLevel(destinationType), new EndBiomeTestTeleporter(entity.getServer().getLevel(destinationType), pos));
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(NewEndUpdateModBlocks.ENDIDEA_PORTAL.get(), renderType -> renderType == RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer(NewEndUpdateModBlocks.END_BIOME_TEST_PORTAL.get(), renderType -> renderType == RenderType.translucent());
 	}
 }
